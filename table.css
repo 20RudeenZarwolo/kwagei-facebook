@@ -1,0 +1,59 @@
+/* #addContactContainer{
+    display: none;
+}
+#editContactContainer{
+    display: none;
+}
+#editContactContainer{
+    display: none;
+} */
+
+.button{
+    font-size: 40px;
+    padding: 15px 30px;
+    background-color: rgb(18, 18, 109);
+    color: white;
+
+}
+div{
+    margin: auto;
+    
+}
+input[type=text]{
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+}
+#submitContactButton{
+    background-color: blue;
+    padding: 8px 20px;
+    margin: 8px 0;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer
+
+}
+
+input[type="submit"]:hover{
+    background-color: #294fb8
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+th{
+    background-color: green;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th, td{
+    text-align: left;
+    padding: 8px;
+}
